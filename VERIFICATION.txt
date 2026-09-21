@@ -1,0 +1,49 @@
+HOME JUNCTION4U — FLAT ROOT VERIFICATION REPORT
+
+Result: PASS for the corrected downloadable package.
+Scope: local HTTP delivery at both a domain root and a repository subpath.
+The user's live GitHub repository/domain was not inspected because no URL was
+provided. Upload every supplied file together to reproduce this tested structure.
+
+1. CSS loads — PASS
+   style.css is referenced at the root. HTTP 200 with text/css content type.
+   Styling is byte-identical to the previously published website.
+
+2. JavaScript loads — PASS
+   main.js is referenced at the root. HTTP 200 with a JavaScript content type.
+   Behaviour code is unchanged, including navigation and reduced-motion support.
+   The 404 page retains its existing inline JavaScript.
+
+3. All images load — PASS
+   All 30 WebP assets and favicon.png decode successfully and return HTTP 200.
+   Image files are byte-identical to the original package; no replacements.
+   All HTML src/srcset candidates resolve. Embedded 404 assets remain intact.
+
+4. All internal pages work — PASS
+   All 9 HTML pages return HTTP 200; relative page links and fragment IDs resolve.
+   Verified at a domain root and under a GitHub-style repository subpath.
+   GitHub Pages selects 404.html for missing routes after deployment.
+
+5. WhatsApp button — LINK CHECK PASS
+   Every WhatsApp link retains https://wa.me/918250467087 and the correctly
+   encoded original enquiry message. No message was sent during verification.
+   Opening WhatsApp itself depends on the visitor's device and WhatsApp service.
+
+6. Social links — TARGET CHECK PASS
+   Instagram, Facebook and YouTube URLs exactly match the supplied originals.
+   Their live availability/login requirements were not independently verified.
+
+7. No broken local references remain — PASS
+   241 local references checked; zero missing files or broken fragment targets.
+   No css/, js/, images/ or assets/ directory dependencies remain.
+   No local-system paths, localhost URLs or development dependencies are included.
+   No external asset imports, background URLs or preload references need rewriting.
+   Existing Open Graph metadata has no image URL, so no image URL was invented.
+
+8. GitHub Pages requires no build step — PASS
+   Plain HTML, CSS and vanilla JavaScript. index.html is at the ZIP root.
+   All files are flat. .nojekyll is included. No Node.js, React or package install.
+
+All source image bytes, CSS and JavaScript are preserved. Only HTML asset path
+prefixes changed. Browser interaction tests were not rerun for this path-only fix;
+HTTP delivery and static link validation were performed on the corrected files.
