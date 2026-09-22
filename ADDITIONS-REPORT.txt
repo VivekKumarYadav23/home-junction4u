@@ -1,0 +1,55 @@
+ADD-ONLY UPDATE — 22 SEPTEMBER 2026
+
+BASELINE
+Downloaded all 46 current files from VivekKumarYadav23/home-junction4u.
+Verified each file against the GitHub listing's Git blob SHA.
+The downloaded index.html matches https://homejunction4u.com byte for byte.
+
+ADDED
+1. Homepage section with 7+ years of work experience; 500+ projects delivered;
+   company based in Kharagpur; work locations Kharagpur, Kolkata, Jamshedpur,
+   Paschim Medinipur and Jhargram. These figures were supplied by the user.
+2. See Our Reviews on Google button, using the exact supplied URL, opening a
+   new tab with rel="noopener noreferrer". Existing button styling reused.
+3. Inline Instagram, Facebook and YouTube icons beside the existing footer
+   text links on all nine pages. No external icon library or new asset needed.
+
+GOOGLE REVIEW VERIFICATION — FALLBACK USED
+Attempted the supplied short URL through web retrieval, direct HTTP and Google
+Maps in the browser. The profile opened as Home junction interior, but Maps
+reported a limited view and exposed no individual review texts/names/ratings.
+Five individual 5-star reviews could NOT be independently verified.
+ZERO reviews were inserted. No unverified, fabricated or placeholder reviews
+were added. The existing site has a 'First, we listen' experience section,
+not a populated testimonials section. Its text and existing link are unchanged;
+only the requested Google Reviews button was appended within it.
+
+VERIFICATION
+- All 9 HTML pages opened in the browser at 360, 768 and 1440px widths.
+- No horizontal overflow in those 27 page/viewport checks.
+- JavaScript ran on all pages; no browser console errors were reported.
+- Mobile menu open and Escape-close both passed.
+- Exactly 3 footer social icons present on every page at each tested width.
+- 42 HTML/CSS/JS/image files served HTTP 200 with matching file bytes.
+- All 30 WebP images and the PNG favicon successfully decoded.
+- 241 local references checked: zero missing files or broken fragment IDs.
+- Existing hyperlink destinations and occurrence counts are preserved exactly.
+- WhatsApp URLs/messages, telephone links, email and social URLs are unchanged.
+- Google button URL is exactly https://maps.app.goo.gl/nD7Rkpoh7iwtVEsY8.
+- Existing headings, paragraphs, metadata, images and legal content preserved.
+- Removing marked addition blocks recreates each original HTML exactly.
+- style.css, main.js, every image, favicon and CNAME are byte-identical.
+- No changes to DNS, GitHub settings, repository name or live deployment.
+- All website files remain at the ZIP root; no build, dependency or backend.
+
+LIMITS
+External social services were not retested for availability; their exact URLs
+were preserved. No WhatsApp message, email or phone call was sent. Browser QA
+used a local preview of the updated package. The public website is unchanged
+until the updated HTML files are uploaded to the existing repository.
+
+UPLOAD
+Extract the ZIP and upload its contents directly to the existing repository
+root, replacing matching files. The existing CNAME is included unchanged.
+The original README.txt and VERIFICATION.txt are preserved as historical files;
+THIS ADDITIONS-REPORT.txt is the verification report for the current update.

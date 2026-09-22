@@ -1,0 +1,57 @@
+GOOGLE REVIEW UPDATE — 22 SEPTEMBER 2026
+
+Exactly five Google reviews were transcribed from the five screenshots supplied
+by the user. Names, five-star ratings and wording were checked visually against
+those screenshots. No Google Maps fetch or alternative review search was used
+for this update. Verification is against the supplied screenshots, not a new
+independent check of the live Google listing.
+
+SOURCES
+080804 — Dr Monalisa Das
+080904 — ABHI MUKHERJEE
+080946 — Ramkrishna Sasmal
+081127 — PAYEL CHATTERJEE
+081238 — VENKATESH D V
+(All filenames begin: Screenshot 2026-09-22.)
+
+SCREENSHOT WORDING TAKES PRECEDENCE
+ABHI's screenshot says “well mannered”, “designing n creative ideas”, “He nd”,
+“let u down” and “hire them”; the earlier pasted draft differed.
+Ramkrishna's screenshot reads “Kharagpur..If”. PAYEL's punctuation and three
+folded-hands emoji are retained. Customer grammar has not been corrected.
+All five reviews are included in full. No dates were invented or inferred from
+the screenshots' relative time labels. Screenshot line wrapping is naturally
+reflowed by the responsive website.
+
+PRESERVATION
+Only index.html changed among the 47 files in the previous complete package.
+The existing experience section now contains the reviews before the unchanged
+Google Reviews button. Existing typography, colours, article separators and
+responsive rules are reused. No stylesheet or JavaScript modifications.
+Removing the single marked review block exactly restores the previous index.html.
+All other 46 files are byte-identical, including the work-experience section's
+supporting files, legal pages, footer icons, images, favicon, CNAME and reports.
+No existing text, navigation, contact link or social URL was changed.
+
+CHECKS
+- Exactly five reviewer entries rendered in the browser.
+- Five five-star displays, each labelled “5 out of 5 stars” for accessibility.
+- All five reviewer names match the supplied screenshots.
+- Transcribed text checked against screenshots and parsed back from HTML.
+- Google button preserved: https://maps.app.goo.gl/nD7Rkpoh7iwtVEsY8
+- 241 local references checked; no missing files or fragment targets.
+- All 42 HTML/CSS/JS/image files served successfully through local HTTP.
+- All 30 WebP files and the PNG favicon decode successfully.
+- Mobile review layout visually checked; no horizontal overflow at 390px.
+- Desktop overflow checked at 1440px.
+- Existing CSS, JavaScript, image assets and CNAME remain unchanged.
+- Complete flat-root static package; no build process or dependencies.
+
+UPLOAD
+Upload the ZIP contents directly to the existing repository root and replace
+matching files. index.html is at the ZIP root. This package has not been pushed
+to GitHub or deployed; it is ready for upload.
+
+Earlier reports are preserved as historical records. Their statements that
+zero reviews were inserted describe the previous version. This report supersedes
+that review status: five screenshot-sourced reviews are now present.
