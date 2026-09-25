@@ -1,0 +1,41 @@
+HOME JUNCTION4U — HOME FORM AND THANK YOU UPDATE
+
+1. Contact page HTML and form CSS are byte-identical to the previous package.
+   Fields, wording, layout, required/optional settings and validation preserved.
+2. Exact same form section added to Home after reviews, before closing CTA.
+   All earlier Home content and section order remain unchanged.
+3. Both use the same existing Web3Forms endpoint, key and shared script.
+4. The only script addition redirects to relative thank-you.html after HTTP
+   success AND Web3Forms success:true. On homejunction4u.com this resolves to
+   https://homejunction4u.com/thank-you.html; repository subpaths also work.
+5. Error behavior is unchanged. Browser failure fixtures on BOTH pages showed
+   error, retained entered data, enabled retry and did not redirect.
+6. thank-you.html uses existing header/logo/navigation/footer, styles and JS.
+   Back to Home uses ./, verified to open / on the preview domain root.
+7. All other existing files are byte-identical, including images, original
+   style.css/main.js, legal pages, social links and WhatsApp integration.
+8. Complete flat-root static package. No build, Node.js, React or site backend.
+
+TESTING
+Two clearly labelled live Web3Forms tests were accepted: one from Contact with
+Email and Message empty; one from Home with optional Message supplied.
+Both reached thank-you.html after confirmed API success.
+Email delivery to the receiving inbox cannot be independently confirmed.
+Both forms rejected empty Name, Phone and Location in browser tests.
+Email/Message remain optional; unchanged validation previously tested.
+Home form and Thank You page checked at 390, 768 and 1440px: no horizontal
+overflow. Mobile Thank You appearance inspected. Back to Home click passed.
+266 local references checked with zero missing files or fragment IDs.
+45 HTML/CSS/JS/image files served HTTP 200 with exact expected bytes.
+All 30 WebP assets and PNG favicon decode successfully.
+WhatsApp and social targets preserved exactly; third-party availability and
+message delivery through those services were not retested.
+No development fixture/server or test scripts included in the ZIP.
+
+UPLOAD
+Upload all contents to VivekKumarYadav23/home-junction4u repository root,
+overwriting matching files. index.html is directly at ZIP root.
+CNAME is unchanged. No live repository or hosting settings were changed.
+Previous included reports are historical; this is the latest report.
+The previously noted privacy-policy wording mismatch remains because legal
+pages were explicitly requested unchanged.

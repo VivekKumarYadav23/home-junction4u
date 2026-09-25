@@ -1,0 +1,60 @@
+HOME JUNCTION4U — ENQUIRY FORM VERIFICATION — 25 SEPTEMBER 2026
+
+Added Request a Callback to contact.html, after the existing contact details
+and before the existing kitchen image. Added enquiry-form.css and enquiry-form.js.
+Required: Name, Phone Number, Location. Optional: Email, Message.
+Tel and email input types, visible labels, autocomplete, keyboard focus,
+accessible live status and whitespace/phone/email validation are included.
+
+WEB3FORMS
+Endpoint: https://api.web3forms.com/submit
+The exact supplied access key is configured in the form.
+Subject: New Enquiry - Home Junction4u
+One clearly labelled live integration test was accepted by Web3Forms.
+The production form showed same-page success and reset after the API returned
+success. No redirect occurred. Inbox receipt/content was not independently
+verified; please check the email account associated with your Web3Forms key.
+Local captured submissions confirm name, phone, location, email and message
+are sent when supplied. Empty optional fields are omitted.
+
+TEST RESULTS
+PASS: Empty required fields and whitespace-only Name/Location rejected.
+PASS: Invalid phone and malformed optional email rejected.
+PASS: Email and Message can both be omitted; success/reset verified.
+PASS: All five filled fields submitted in isolated local success test.
+PASS: HTTP failure, success:false and malformed response show error.
+PASS: Failure retains submitted data and re-enables the button.
+The browser masks phone/email values in inspection; local request capture
+confirmed those submitted values. Code resets only after confirmed success.
+PASS: 390, 768 and 1440px widths have no horizontal overflow.
+Mobile uses one column; tablet/desktop use two. Mobile appearance inspected.
+No browser console errors during the live submission.
+
+PRESERVATION / STATIC DELIVERY
+All existing files except contact.html are byte-identical to the warm-theme
+package. Removing the two marked additions restores the exact contact HTML.
+Thus homepage, reviews, legal pages, SEO, navigation, WhatsApp, social URLs,
+original CSS/JS, images and animations are preserved.
+243 local references checked: no missing files or fragment targets.
+44 HTML/CSS/JS/image files returned HTTP 200 and exact expected bytes.
+All 30 WebP images and PNG favicon decode successfully.
+WhatsApp/social targets are unchanged; third-party app availability was not
+independently retested. No messages were sent through WhatsApp/social links.
+Flat root with index.html, .nojekyll and unchanged CNAME; no build step,
+Node.js, framework or site backend. Web3Forms handles enquiry delivery.
+No local test server, fixtures or QA scripts are included in this package.
+
+NOTES
+A hidden botcheck honeypot is included without an intrusive CAPTCHA.
+Web3Forms now describes honeypots as deprecated/less effective; this is basic
+protection, not a guarantee against spam. Provider-side protection also applies.
+Reference: https://docs.web3forms.com/getting-started/customizations/spam-protection/spam-protection
+Legal pages were preserved as explicitly requested. The existing privacy policy
+says the site does not use enquiry forms; that wording now needs a separate
+update to describe this form and Web3Forms processing accurately.
+
+UPLOAD
+Upload ALL ZIP contents to VivekKumarYadav23/home-junction4u repository root,
+overwriting matching files and adding the two enquiry assets. No hosting or
+live repository changes were made. Earlier included reports are historical;
+this report describes the current package.

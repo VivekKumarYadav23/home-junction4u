@@ -15,12 +15,12 @@
 <style>@charset "UTF-8";
   
 :root {
-  --paper:#f6f4ee;
-  --ink:#242821;
-  --muted:#64675e;
-  --line:#d7d8cc;
-  --gold:#ebca39;
-  --dark:#20261f;
+  --paper:#f3efe6;
+  --ink:#202e3c;
+  --muted:#505f6c;
+  --line:#d9d3c9;
+  --gold:#c9b079;
+  --dark:#1d2935;
   --serif:Georgia,'Times New Roman',serif;
   --sans:Arial,Helvetica,sans-serif}
 * {
@@ -62,11 +62,11 @@ h3 {
   line-height:1.35}
 em {
   font-weight:400;
-  color:#6d735c}
+  color:#695b48}
 p {
   color:var(--muted)}
 :focus-visible {
-  outline:3px solid #a37700;
+  outline:3px solid #806638;
   outline-offset:5px}
 a,button {
   -webkit-tap-highlight-color:transparent}
@@ -86,7 +86,7 @@ a,button {
   align-items:center;
   justify-content:space-between;
   border-bottom:1px solid var(--line);
-  background:rgba(246,244,238,.98);
+  background:rgba(243,239,230,.98);
   position:sticky;
   top:0;
   z-index:20}
@@ -136,7 +136,7 @@ a,button {
   border:1px solid var(--ink);
   transition:background .2s,transform .2s}
 .button:hover {
-  background:#414a37;
+  background:#344758;
   transform:translateY(-2px)}
 .button span {
   font-size:1.25rem;
@@ -144,9 +144,9 @@ a,button {
 .button.secondary {
   background:transparent;
   color:var(--ink);
-  border-color:#aaa99f}
+  border-color:#aaa296}
 .button.secondary:hover {
-  background:#eae8df}
+  background:#e7e0d5}
 .header .button {
   background:var(--gold);
   border-color:var(--gold);
@@ -170,7 +170,7 @@ a,button {
   font-weight:600;
   line-height:1.7;
   margin-bottom:24px;
-  color:#616653}
+  color:#56616b}
 .hero h1 {
   margin-bottom:24px}
 .hero-description {
@@ -192,7 +192,7 @@ a,button {
 .line {
   width:42px;
   height:1px;
-  background:#828674}
+  background:#938b7d}
 .hero-image {
   position:relative;
   min-height:600px;
@@ -228,13 +228,13 @@ a,button {
   display:flex;
   justify-content:space-between;
   gap:15px;
-  color:#666b5d;
+  color:#596875;
   font-size:.75rem;
   letter-spacing:.08em}
 .service-ribbon span+span:before {
   content:'✦';
   font-size:.7rem;
-  color:#8d885b;
+  color:#8b7856;
   margin-right:40px}
 .section {
   padding:96px 7%;
@@ -264,11 +264,11 @@ a,button {
   border-bottom:1px solid var(--ink);
   white-space:normal}
 .text-link:hover {
-  color:#747850}
+  color:#65523c}
 .intro-bottom .text-link {
   justify-self:end}
 .services {
-  background:#edeee5;
+  background:#eae4d9;
   max-width:none}
 .section-heading {
   display:flex;
@@ -284,19 +284,19 @@ a,button {
 .services-grid {
   display:grid;
   grid-template-columns:repeat(3,1fr);
-  border-top:1px solid #bfc3b5;
-  border-left:1px solid #bfc3b5}
+  border-top:1px solid #d0c8ba;
+  border-left:1px solid #d0c8ba}
 .service-card {
   padding:32px 30px 40px;
-  border-right:1px solid #bfc3b5;
-  border-bottom:1px solid #bfc3b5;
+  border-right:1px solid #d0c8ba;
+  border-bottom:1px solid #d0c8ba;
   position:relative;
   transition:background .25s}
 .service-card:hover {
-  background:#e1e4d5}
+  background:#dfd6c8}
 .number {
   font:italic 1.1rem var(--serif);
-  color:#747d63}
+  color:#63707a}
 .service-card h3 {
   font:1.75rem var(--serif);
   margin:28px 0 12px}
@@ -350,7 +350,7 @@ a,button {
 .why {
   display:grid;
   grid-template-columns:.9fr 1.1fr;
-  background:#e9e9df;
+  background:#e6dfd3;
   max-width:none;
   gap:8%;
   align-items:center}
@@ -362,11 +362,11 @@ a,button {
   display:flex;
   gap:25px;
   padding:25px 0;
-  border-top:1px solid #c5c8b9}
+  border-top:1px solid #cec5b7}
 .values article>span {
   font:italic 1rem var(--serif);
   padding-top:4px;
-  color:#747b66}
+  color:#63707a}
 .values h3 {
   margin-bottom:8px}
 .values p {
@@ -395,7 +395,7 @@ a,button {
 .closing h2 {
   margin-bottom:24px}
 .closing p {
-  color:#c1c6b9;
+  color:#c7d0d7;
   max-width:430px}
 .closing-actions {
   display:flex;
@@ -410,7 +410,7 @@ a,button {
   margin-bottom:8px}
 footer {
   padding:65px 7% 90px;
-  background:#f0efe8}
+  background:#ebe5db}
 .footer-grid {
   display:grid;
   grid-template-columns:1.4fr .65fr 1.4fr .7fr;
@@ -457,9 +457,9 @@ footer a:hover {
   display:flex;
   align-items:center;
   gap:8px;
-  background:#205339;
+  background:#28564f;
   color:#fff;
-  border:1px solid #d4dfd2;
+  border:1px solid #d8dfd8;
   border-radius:40px;
   padding:10px 18px 10px 12px;
   font-size:.8125rem;
@@ -505,7 +505,7 @@ footer a:hover {
   margin-top:40px}
 .service-jumps a {
   font-size:.875rem;
-  border-bottom:1px solid #a8ad9d;
+  border-bottom:1px solid #b2a99b;
   padding:8px 0}
 .service-details {
   padding-top:0}
@@ -537,7 +537,7 @@ footer a:hover {
   align-items:start}
 .contact-primary {
   padding:45px;
-  background:#e9ebdf}
+  background:#e8e1d5}
 .contact-primary h2 {
   font-size:3rem}
 .small-note {
@@ -737,7 +737,7 @@ to {
   font-size:.57rem}
 .menu-toggle {
   display:block;
-  border:1px solid #b7bcaf;
+  border:1px solid #b9b0a1;
   background:transparent;
   padding:8px 12px;
   font-size:.8125rem;
@@ -825,7 +825,7 @@ to {
 .service-ribbon span:before {
   content:'—';
   margin-right:10px;
-  color:#8d885b}
+  color:#8b7856}
 .section {
   padding:58px 6%}
 h2 {
@@ -1050,7 +1050,7 @@ a {
 <p class="eyebrow">GET IN TOUCH</p><a href="tel:+918250467087">+91 8250467087</a><a href="tel:+919614009336">+91 9614009336</a><a class="email" href="mailto:Homejunction.kharagpur721301@gmail.com">Homejunction.kharagpur721301@gmail.com</a>
 </div>
 <div>
-<p class="eyebrow">FOLLOW ALONG</p><a href="https://www.instagram.com/homejunction4u?stkn=cmZiZWJjYjNsZTdq" target="_blank" rel="noopener noreferrer"><!-- HJ ADDITION START --><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" style="display:inline-block;vertical-align:-3px;margin-right:8px"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg><!-- HJ ADDITION END -->Instagram ↗</a><a href="https://www.facebook.com/share/1CfM7Hp6mh/" target="_blank" rel="noopener noreferrer"><!-- HJ ADDITION START --><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" style="display:inline-block;vertical-align:-3px;margin-right:8px"><path fill="currentColor" d="M14 22v-9h3l.5-4H14V6.5c0-1.2.4-2 2-2H18V1.2C17.2 1.1 16.3 1 15.3 1 12.4 1 10 2.8 10 6v3H7v4h3v9z"/></svg><!-- HJ ADDITION END -->Facebook ↗</a><a href="https://youtube.com/@homejunction7159?si=ofRrUooe3QBa3fgW" target="_blank" rel="noopener noreferrer"><!-- HJ ADDITION START --><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" style="display:inline-block;vertical-align:-3px;margin-right:8px"><rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor"/><path d="m10 9 6 3-6 3z" fill="var(--paper, #f6f4ee)"/></svg><!-- HJ ADDITION END -->YouTube ↗</a>
+<p class="eyebrow">FOLLOW ALONG</p><a href="https://www.instagram.com/homejunction4u?stkn=cmZiZWJjYjNsZTdq" target="_blank" rel="noopener noreferrer"><!-- HJ ADDITION START --><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" style="display:inline-block;vertical-align:-3px;margin-right:8px"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg><!-- HJ ADDITION END -->Instagram ↗</a><a href="https://www.facebook.com/share/1CfM7Hp6mh/" target="_blank" rel="noopener noreferrer"><!-- HJ ADDITION START --><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" style="display:inline-block;vertical-align:-3px;margin-right:8px"><path fill="currentColor" d="M14 22v-9h3l.5-4H14V6.5c0-1.2.4-2 2-2H18V1.2C17.2 1.1 16.3 1 15.3 1 12.4 1 10 2.8 10 6v3H7v4h3v9z"/></svg><!-- HJ ADDITION END -->Facebook ↗</a><a href="https://youtube.com/@homejunction7159?si=ofRrUooe3QBa3fgW" target="_blank" rel="noopener noreferrer"><!-- HJ ADDITION START --><svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false" style="display:inline-block;vertical-align:-3px;margin-right:8px"><rect x="2" y="5" width="20" height="14" rx="4" fill="currentColor"/><path d="m10 9 6 3-6 3z" fill="var(--paper, #f3efe6)"/></svg><!-- HJ ADDITION END -->YouTube ↗</a>
 </div>
 </div>
 <div class="footer-bottom"><span>© <span id="year">2026</span> Home Junction4u</span>

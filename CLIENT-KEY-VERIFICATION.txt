@@ -1,0 +1,21 @@
+FINAL CLIENT WEB3FORMS KEY — VERIFICATION
+
+Only index.html and contact.html were modified, replacing one access key
+value in each with d6a0d2d5-0103-4689-93b1-94c3e643372b.
+Byte comparisons confirm no other changes to either page and every other
+existing file is identical to the previous complete website package.
+The old access key is absent from all files in this package.
+
+Home form: live Web3Forms test accepted; redirected to thank-you.html.
+Contact form: live Web3Forms test accepted with Email and Message omitted;
+redirected to thank-you.html.
+Two clearly labelled test enquiries were sent using the new key.
+The API accepted both tests. Client inbox receipt/account ownership could
+not be independently inspected; please confirm the two emails in that inbox.
+
+Endpoint, fields, validation, required/optional status, design, scripts,
+success/error handling and Thank You page/redirect are unchanged.
+Complete flat-root package; index.html at ZIP root. No build required.
+Upload all contents to the existing GitHub repository root and replace
+matching files. The live repository itself has not been updated here.
+Other included reports describe earlier versions and their earlier tests.

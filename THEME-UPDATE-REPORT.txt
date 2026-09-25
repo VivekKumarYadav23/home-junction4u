@@ -1,0 +1,49 @@
+WARM THEME UPDATE — 25 SEPTEMBER 2026
+
+The supplied Meta ad screenshot was used ONLY for its warm cream, stone/taupe
+and understated dark colour mood. No layout, typography, advertising content,
+social-app interface or image from that screenshot was copied into the site.
+Deep navy and muted blue-gray follow the accompanying written brief.
+
+PALETTE
+Cream background: #f3efe6
+Deep navy headings/buttons: #202e3c
+Muted blue-gray body text: #505f6c
+Warm gray dividers: #d9d3c9
+Warm brown italic accent: #695b48
+Restrained brass brand accent: #c9b079
+Dark CTA section: #1d2935
+Related section/hover/footer tones use the same warm neutral family.
+The original logo and all photographic assets are unchanged.
+
+LOCATION UPDATE
+Kharagpur, Purab and Paschim Midnapore, Jhargram, Kolkata, Jamshedpur and Odisha.
+This replaces only the existing Where we work paragraph, in exactly that order.
+
+PRESERVATION CHECKS
+Colour-normalized comparisons show no HTML structure or CSS rule changes.
+Fonts, sizes, margins, padding, breakpoints, animations and behaviour preserved.
+All five screenshot-sourced review entries remain byte-identical.
+All page link/asset references are identical to the previous ZIP.
+WhatsApp, Google Reviews button, phone/email and social URLs unchanged.
+JavaScript, all images, favicon and CNAME remain byte-identical.
+Titles and SEO descriptions unchanged; theme-color follows the new dark tone.
+The 404's embedded stylesheet and footer icon fallback colours are updated too.
+
+VERIFICATION
+All nine pages checked in-browser at 390, 768 and 1440px: no horizontal overflow.
+New cream background confirmed on every page, including 404.
+JavaScript runs on all pages; no browser console errors observed.
+Mobile menu opens and closes with Escape.
+241 local references checked: zero missing files or broken fragment IDs.
+42 HTML/CSS/JS/image files served HTTP 200 with correct file bytes.
+All 30 WebP images and the PNG favicon decoded successfully.
+Core text contrast ratios: {"Headings on cream": 12.06, "Body on cream": 5.73, "Body on hover surface": 4.57, "Navy on brass button": 6.57, "Light text on dark CTA": 9.45}.
+These are palette checks, not a full accessibility certification.
+
+DELIVERY
+Complete flat-root static website; index.html and assets at ZIP root.
+No Node.js, framework, build, package installation or backend required.
+Upload contents to the existing repository root, replacing matching filenames.
+CNAME is included unchanged. No DNS/hosting settings or live files were changed.
+Other reports are historical; this report describes the latest theme update.
