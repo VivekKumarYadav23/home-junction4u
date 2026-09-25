@@ -1,0 +1,18 @@
+ATTACHED AD REFERENCE — COLOUR UPDATE
+
+Refined the previous palette towards the supplied ad artwork: stone cream
+#eee9df, layered beige/taupe #e3ddcf and #ded6c8, near-black #1d1e1b,
+warm brown #65533f, muted gray #505958 and warm-gray borders #cdc5b8.
+The Instagram interface and green advertising overlay were not copied.
+All ten pages use the shared palette, including forms, Thank You and 404.
+
+Colour-normalized file comparisons confirm no content, structure, typography,
+spacing, breakpoints or animation changes. All scripts, original images,
+links, client Web3Forms key, endpoint, validation, redirect, CNAME and .nojekyll
+are preserved. No further test enquiries were sent for this colour-only edit.
+266 local references verified; all images decode successfully.
+Core text contrast checks pass: {"Body on darkest light surface": 4.72, "Headings": 13.84, "Mocha accents": 5.09, "Button text": 15.66, "Button hover": 9.04}.
+Form border contrast exceeds 3:1. Responsive layout rules remain unchanged.
+Complete flat-root static site, index.html at root, no build or Node/npm/React.
+Upload all contents to the existing repository root. No live deployment made.
+Older reports describe earlier versions; this is the latest colour report.

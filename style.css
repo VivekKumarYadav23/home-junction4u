@@ -1,13 +1,13 @@
 @charset "UTF-8";
   
 :root {
-  --paper:#f3efe6;
-  --ink:#202e3c;
-  --muted:#505f6c;
-  --line:#d9d3c9;
-  --gold:#c9b079;
-  --dark:#1d2935;
-  --serif:Georgia,'Times New Roman',serif;
+  --paper:#faf8f5;
+  --ink:#2e2e2e;
+  --muted:#535b58;
+  --line:#d4d6ce;
+  --gold:#8a9a7e;
+  --dark:#364036;
+  --serif:'Segoe UI',Arial,Helvetica,sans-serif;
   --sans:Arial,Helvetica,sans-serif}
 * {
   box-sizing:border-box}
@@ -48,11 +48,11 @@ h3 {
   line-height:1.35}
 em {
   font-weight:400;
-  color:#695b48}
+  color:#53634b}
 p {
   color:var(--muted)}
 :focus-visible {
-  outline:3px solid #806638;
+  outline:3px solid #53634b;
   outline-offset:5px}
 a,button {
   -webkit-tap-highlight-color:transparent}
@@ -72,7 +72,7 @@ a,button {
   align-items:center;
   justify-content:space-between;
   border-bottom:1px solid var(--line);
-  background:rgba(243,239,230,.98);
+  background:rgba(250,248,245,.98);
   position:sticky;
   top:0;
   z-index:20}
@@ -116,13 +116,13 @@ a,button {
   padding:15px 23px;
   min-height:52px;
   background:var(--ink);
-  color:#fff;
+  color:#faf7f1;
   font-size:.875rem;
   font-weight:500;
   border:1px solid var(--ink);
   transition:background .2s,transform .2s}
 .button:hover {
-  background:#344758;
+  background:#465640;
   transform:translateY(-2px)}
 .button span {
   font-size:1.25rem;
@@ -130,9 +130,9 @@ a,button {
 .button.secondary {
   background:transparent;
   color:var(--ink);
-  border-color:#aaa296}
+  border-color:#7b8574}
 .button.secondary:hover {
-  background:#e7e0d5}
+  background:#e7ebe2}
 .header .button {
   background:var(--gold);
   border-color:var(--gold);
@@ -156,7 +156,7 @@ a,button {
   font-weight:600;
   line-height:1.7;
   margin-bottom:24px;
-  color:#56616b}
+  color:#53634b}
 .hero h1 {
   margin-bottom:24px}
 .hero-description {
@@ -178,7 +178,7 @@ a,button {
 .line {
   width:42px;
   height:1px;
-  background:#938b7d}
+  background:#7b8574}
 .hero-image {
   position:relative;
   min-height:600px;
@@ -196,7 +196,7 @@ a,button {
   justify-content:space-between;
   gap:20px;
   padding:70px 22px 20px;
-  color:#fff;
+  color:#faf7f1;
   background:linear-gradient(transparent,rgba(0,0,0,.65));
   font-size:.625rem;
   letter-spacing:.15em}
@@ -214,13 +214,13 @@ a,button {
   display:flex;
   justify-content:space-between;
   gap:15px;
-  color:#596875;
+  color:#535b58;
   font-size:.75rem;
   letter-spacing:.08em}
 .service-ribbon span+span:before {
   content:'✦';
   font-size:.7rem;
-  color:#8b7856;
+  color:#53634b;
   margin-right:40px}
 .section {
   padding:96px 7%;
@@ -250,11 +250,11 @@ a,button {
   border-bottom:1px solid var(--ink);
   white-space:normal}
 .text-link:hover {
-  color:#65523c}
+  color:#53634b}
 .intro-bottom .text-link {
   justify-self:end}
 .services {
-  background:#eae4d9;
+  background:#e8dfd1;
   max-width:none}
 .section-heading {
   display:flex;
@@ -270,19 +270,19 @@ a,button {
 .services-grid {
   display:grid;
   grid-template-columns:repeat(3,1fr);
-  border-top:1px solid #d0c8ba;
-  border-left:1px solid #d0c8ba}
+  border-top:1px solid #c8ccbf;
+  border-left:1px solid #c8ccbf}
 .service-card {
   padding:32px 30px 40px;
-  border-right:1px solid #d0c8ba;
-  border-bottom:1px solid #d0c8ba;
+  border-right:1px solid #c8ccbf;
+  border-bottom:1px solid #c8ccbf;
   position:relative;
   transition:background .25s}
 .service-card:hover {
-  background:#dfd6c8}
+  background:#dce2d5}
 .number {
   font:italic 1.1rem var(--serif);
-  color:#63707a}
+  color:#53634b}
 .service-card h3 {
   font:1.75rem var(--serif);
   margin:28px 0 12px}
@@ -336,7 +336,7 @@ a,button {
 .why {
   display:grid;
   grid-template-columns:.9fr 1.1fr;
-  background:#e6dfd3;
+  background:#e7ebe2;
   max-width:none;
   gap:8%;
   align-items:center}
@@ -348,11 +348,11 @@ a,button {
   display:flex;
   gap:25px;
   padding:25px 0;
-  border-top:1px solid #cec5b7}
+  border-top:1px solid #c8ccbf}
 .values article>span {
   font:italic 1rem var(--serif);
   padding-top:4px;
-  color:#63707a}
+  color:#53634b}
 .values h3 {
   margin-bottom:8px}
 .values p {
@@ -381,7 +381,7 @@ a,button {
 .closing h2 {
   margin-bottom:24px}
 .closing p {
-  color:#c7d0d7;
+  color:#e4e9df;
   max-width:430px}
 .closing-actions {
   display:flex;
@@ -396,7 +396,7 @@ a,button {
   margin-bottom:8px}
 footer {
   padding:65px 7% 90px;
-  background:#ebe5db}
+  background:#eee9e0}
 .footer-grid {
   display:grid;
   grid-template-columns:1.4fr .65fr 1.4fr .7fr;
@@ -443,9 +443,9 @@ footer a:hover {
   display:flex;
   align-items:center;
   gap:8px;
-  background:#28564f;
-  color:#fff;
-  border:1px solid #d8dfd8;
+  background:#40594f;
+  color:#faf7f1;
+  border:1px solid #d4d6ce;
   border-radius:40px;
   padding:10px 18px 10px 12px;
   font-size:.8125rem;
@@ -491,7 +491,7 @@ footer a:hover {
   margin-top:40px}
 .service-jumps a {
   font-size:.875rem;
-  border-bottom:1px solid #b2a99b;
+  border-bottom:1px solid #7b8574;
   padding:8px 0}
 .service-details {
   padding-top:0}
@@ -523,7 +523,7 @@ footer a:hover {
   align-items:start}
 .contact-primary {
   padding:45px;
-  background:#e8e1d5}
+  background:#e8dfd1}
 .contact-primary h2 {
   font-size:3rem}
 .small-note {
@@ -723,7 +723,7 @@ to {
   font-size:.57rem}
 .menu-toggle {
   display:block;
-  border:1px solid #b9b0a1;
+  border:1px solid #7b8574;
   background:transparent;
   padding:8px 12px;
   font-size:.8125rem;
@@ -811,7 +811,7 @@ to {
 .service-ribbon span:before {
   content:'—';
   margin-right:10px;
-  color:#8b7856}
+  color:#53634b}
 .section {
   padding:58px 6%}
 h2 {
@@ -1005,3 +1005,11 @@ a {
   color:inherit}
 }
 
+
+/* Sage studio theme: color and typography only. */
+h1,h2 { font-weight:300; letter-spacing:-.035em; }
+em { font-style:normal; }
+.button { background:#8a9a7e; color:#2e2e2e; border-color:#8a9a7e; }
+.button:hover { background:#465640; color:#faf8f5; border-color:#465640; }
+.button.secondary:hover { color:#2e2e2e; border-color:#7b8574; }
+.header .button:hover,.closing .button:hover { background:#465640; color:#faf8f5; border-color:#465640; }

@@ -1,0 +1,13 @@
+SAGE / SAND THEME UPDATE
+Palette: sage #8A9A7E, sand #E8DFD1, charcoal #2E2E2E, off-white #FAF8F5.
+Deeper sage for hover states and readable accent text; soft sage sections and sand footer variations.
+Light system sans-serif headings provide the requested Scandinavian studio mood.
+Existing content, image assets, navigation, links and section layout preserved.
+All scripts byte-identical: client access key, form submission/validation and Thank You redirect unchanged.
+CNAME and .nojekyll preserved. No additional test emails sent for this visual update.
+All ten pages tested at 390, 768 and 1440px: no horizontal overflow.
+266 local references valid; 45 HTML/CSS/JS/image files served successfully.
+Text contrast ratios: {"Sage button": 4.53, "Body on sand": 5.29, "Accent on sand": 4.89, "Heading": 12.81}. All images decode successfully.
+Complete flat-root static website, index.html at root. No Node.js/npm/React/build required.
+Upload all ZIP contents to repository root. No live hosting changes made.
+Earlier included reports describe historical versions.

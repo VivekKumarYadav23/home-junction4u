@@ -1,0 +1,37 @@
+PREMIUM WARM COLOUR THEME — CURRENT PACKAGE
+
+Applied the previously attached reference's warm colour mood and current
+written palette direction only. No reference layout, type, branding or imagery
+was copied. All ten pages, including legal, 404 and Thank You, share the palette.
+
+Cream #f5f1e9: main backgrounds and forms.
+Light taupe #eee7dc, #e9e1d5, #ece4d8: varied supporting sections/cards.
+Charcoal #292724: headings, primary buttons and navigation.
+Mocha #715d4d: italic accents, supporting details and focus outline.
+Muted blue-gray #56616a: body copy; warm-gray #d6cec2: dividers.
+Taupe #d5c4ab: consultation/CTA buttons; charcoal #2e2b27: closing section.
+Footer #eae3d8; clear form borders #8f8476; warm light button text #faf7f1.
+Muted green retained for WhatsApp/success, readable red retained for errors.
+Original logo and every image remain byte-identical.
+
+VERIFICATION
+Colour-normalized comparisons prove no changes to HTML content/structure or
+CSS selectors, geometry, typography, responsive rules and animation settings.
+All JavaScript is byte-identical. Client Web3Forms key, endpoint, form fields,
+validation, submission/error handling and Thank You redirect are unchanged.
+All links, contact details, SEO text, CNAME and .nojekyll are preserved.
+No test enquiries sent for this colour-only update; last client-key tests
+remain documented in CLIENT-KEY-VERIFICATION.txt.
+All 10 pages checked at 390, 768 and 1440px: zero horizontal overflow, consistent
+cream backgrounds and charcoal base text. Desktop homepage visually inspected.
+266 local references valid; 45 HTML/CSS/JS/image files returned HTTP 200.
+All image files decode successfully. Original navy interface colours removed.
+Core normal-text contrast ratios (minimum 4.5:1): {"Headings on cream": 13.22, "Body on cream": 5.63, "Body on darkest light surface": 4.5, "Mocha on taupe": 4.8, "Button text": 13.93, "Button hover": 8.31, "Taupe button text": 8.73, "Dark CTA body": 9.86, "Error message": 7.12, "Success message": 6.75}.
+Form boundary contrast: 3.25:1 (minimum 3:1).
+These checks cover core palette pairs, not a full accessibility certification.
+
+Complete flat-root static HTML/CSS/vanilla JavaScript package with index.html
+at ZIP root. No Node.js, npm, React, backend or build step needed.
+Upload all ZIP contents to the existing repository root, replacing matches.
+Live repository/hosting unchanged. Earlier reports are historical; this report
+describes the new palette. Existing legal content is preserved unchanged.
