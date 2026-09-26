@@ -1,0 +1,59 @@
+DIGITAL BUSINESS CARD — 26 SEPTEMBER 2026
+
+New website files only:
+card.html
+card.css
+card.js
+Home-Junction4u-Digital-Business-Card.pdf
+This verification report is also included.
+
+All 58 existing files match the previous sage-theme package byte for byte.
+No existing page, stylesheet, script, form, image, link, footer/navigation,
+CNAME or .nojekyll was modified. The new card is not linked from existing pages.
+It includes noindex, requires no login, and is accessible directly after upload:
+https://homejunction4u.com/card.html
+No QR code or VCF created. No Contacts permission or automatic contact saving.
+
+FEATURE CHECKS
+Call/WhatsApp/email/Maps/review/social links use the exact supplied destinations.
+These are target checks; no calls, messages or reviews were placed, and external
+service availability/sign-in behavior is outside this package's control.
+Save/share dialog opens; close control works and restores trigger focus.
+Copy Phone shows Copied; Copy Email and Copy Profile Link returned exact expected
+clipboard text; Link copied confirmation implemented. Manual-select fallback
+is included for devices that deny clipboard access.
+Native Web Share API is invoked with the specified title, text and permanent
+URL; Copy Profile Link remains available. Native Share button was invoked in
+the desktop browser, but delivery to an Android/iOS target app was not verified.
+No profile message was sent to anyone during testing.
+PDF download completed in-browser. One-page PDF rendered and visually checked.
+All 11 PDF link annotations verified: phones, WhatsApp, email, website,
+Maps/review, three social links and Visit Digital Profile.
+Visit Digital Profile uses the permanent URL; it becomes live after upload.
+
+FORM
+Exact existing form markup and unchanged enquiry-form.js reused.
+Required Name/Phone/Location checked; optional Email/Message unchanged.
+One clearly labelled live card test was accepted by Web3Forms and redirected
+to the existing thank-you.html. Inbox receipt not independently verified.
+Local simulated server failure retained data, showed an error and did not
+redirect; retry button was re-enabled. Fixtures are not in the delivered ZIP.
+
+LAYOUT / PACKAGE
+Widths 360, 375, 390, 412, 768, 1024 and 1440px checked: no horizontal overflow.
+Mobile card and scrollable dialog visually inspected; input font is 16px and
+primary actions have generous touch targets. Gallery uses existing assets.
+291 local references checked; no missing files/fragment IDs.
+48 HTML/CSS/JS/image files served HTTP 200 and exact expected bytes.
+PDF served HTTP 200. All images decode. No console errors observed in normal use.
+Complete flat-root static HTML/CSS/vanilla JavaScript. No Node.js, npm,
+framework, database or build process required for hosting.
+
+DEPLOYMENT
+Complete ZIP includes unchanged existing website plus the four new files and
+this report. To keep the live site untouched, you may upload ONLY the four new
+website files listed above into the existing repository root, provided the live
+site already has the current image files and enquiry-form.js from this package.
+Do not add a navigation link. Keep card.html at the same permanent path for
+future updates. No live GitHub repository/hosting changes were made here.
+Earlier included reports describe earlier work, not changes made in this update.
