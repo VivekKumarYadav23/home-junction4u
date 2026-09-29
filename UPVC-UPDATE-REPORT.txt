@@ -1,0 +1,31 @@
+HOME JUNCTION4U - UPVC SERVICE UPDATE - 29 September 2026
+Added service 07, UPVC & Fabrication Work, to Home and Services.
+Services includes exactly the two uploaded images in a responsive carousel.
+Image 1 appears initially. No automatic rotation. Full images use contain sizing.
+
+CHANGED: index.html, services.html.
+ADDED: upvc-slider.css, upvc-slider.js, upvc-fabrication-01.jpg,
+upvc-fabrication-02.jpg, UPVC-UPDATE-REPORT.txt.
+
+VERIFICATION
+Arrows, dots, keyboard arrows and mouse dragging tested successfully.
+Native horizontal touch scrolling and scroll snapping implemented; no physical
+phone touchscreen test was available. Mobile-width drag tested in browser.
+Both original JPEGs preserved byte-for-byte and loaded in browser.
+No horizontal page overflow at 360, 390, 768 and 1440px viewport widths.
+Desktop and mobile appearance inspected; images preserve aspect ratio.
+298 local references checked: no missing files or fragment targets.
+52 page/style/script/image resources returned HTTP 200 with exact bytes.
+All image files decoded successfully.
+
+All original files other than the two HTML pages are byte-identical.
+Removing the marked new additions restores both original HTML pages exactly.
+Existing six services, content, header/footer, global styling and JavaScript,
+forms, Web3Forms key and behavior, WhatsApp/social/review links, Digital
+Business Card and its PDF, CNAME and .nojekyll are unchanged.
+Existing external integrations were not resubmitted or independently retested.
+
+Complete flat-root static package. index.html is at ZIP root.
+No Node.js, npm, React, backend or build process required.
+Upload all package files to the repository root. Live site was not changed.
+Earlier reports included in the package are historical.
