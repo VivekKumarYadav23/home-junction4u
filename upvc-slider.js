@@ -4,14 +4,15 @@
     const track = slider.querySelector('.upvc-track');
     const dots = [...slider.querySelectorAll('[data-slide]')];
     const status = slider.querySelector('.upvc-status');
+    const count = track.querySelectorAll('.upvc-slide').length;
     let index = 0, timer, drag = null;
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
     function update() {
-      index = Math.max(0, Math.min(1, Math.round(track.scrollLeft / track.clientWidth)));
+      index = Math.max(0, Math.min(count - 1, Math.round(track.scrollLeft / track.clientWidth)));
       dots.forEach((dot,i) => { if(i === index) dot.setAttribute('aria-current','true'); else dot.removeAttribute('aria-current'); });
-      status.textContent = `Image ${index + 1} of 2`;
+      status.textContent = `Image ${index + 1} of ${count}`;
     }
-    function go(i) { index = (i + 2) % 2; track.scrollTo({left:index * track.clientWidth,behavior:reduced.matches ? 'auto' : 'smooth'}); }
+    function go(i) { index = ((i % count) + count) % count; track.scrollTo({left:index * track.clientWidth,behavior:reduced.matches ? 'auto' : 'smooth'}); }
     slider.querySelector('.upvc-controls').hidden = false;
     slider.querySelector('.upvc-prev').addEventListener('click',() => go(index - 1));
     slider.querySelector('.upvc-next').addEventListener('click',() => go(index + 1));
@@ -32,7 +33,7 @@
       const next=Math.abs(moved)>track.clientWidth*.15 ? start+Math.sign(moved) : start;
       drag=null;track.classList.remove('upvc-dragging');
       if(track.hasPointerCapture(e.pointerId))track.releasePointerCapture(e.pointerId);
-      go(Math.max(0,Math.min(1,next)));
+      go(Math.max(0,Math.min(count - 1,next)));
     }
     track.addEventListener('pointerup',end);track.addEventListener('pointercancel',end);
     window.addEventListener('resize',() => {track.scrollTo({left:index*track.clientWidth,behavior:'auto'});});
